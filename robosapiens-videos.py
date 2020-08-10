@@ -6,7 +6,7 @@ from os.path import split, splitext, join
 
 def main():
     if len(sys.argv) < 3:
-        print('Usage: ./run-smm-videos.py <path-to-files> <model> <preprocess> <rho=100> <lambda=100>')
+        print('Usage: ./robosapiens-videos.py <path-to-files> <model> <preprocess> <rho=100> <lambda=100>')
         return
 
     # Model string
